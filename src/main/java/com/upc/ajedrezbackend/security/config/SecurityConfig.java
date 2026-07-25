@@ -80,7 +80,8 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOrigins(Arrays.asList(
                 "http://localhost:4200",
-                "http://52.233.95.40:4200"
+                "http://52.233.95.40:4200",
+                "https://grandmaster-s-edge-front-end.vercel.app"
         ));
         config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(Arrays.asList("*"));
