@@ -55,7 +55,7 @@ spring.datasource.password=admin
 
 # JPA / Hibernate
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
-spring.jpa.hibernate.ddl-auto=update
+spring.jpa.hibernate.ddl-auto=create-drop
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 server.error.include-stacktrace=never
