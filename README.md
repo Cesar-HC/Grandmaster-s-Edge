@@ -71,18 +71,7 @@ jwt.secret=0C/ZZj90CW7Q74lUM200BayaFq6u12EKyps4NLFQNufowubX5nE1DQT8XRdwv0zUBp7Tn
 
 ---
 
-### Paso 3. Insertar Roles Iniciales en la Base de Datos
-
-Para permitir el registro exitoso de jugadores, asegúrate de que la tabla `roles` contenga los registros base:
-
-```sql
-INSERT INTO roles (id, name) VALUES (1, 'ROLE_USER') ON CONFLICT (id) DO NOTHING;
-INSERT INTO roles (id, name) VALUES (2, 'ROLE_ADMIN') ON CONFLICT (id) DO NOTHING;
-```
-
----
-
-### Paso 4. Compilar y Levantar el Servidor
+### Paso 3. Compilar y Levantar el Servidor
 
 **Opción A: Desde tu IDE (Recomendada y más rápida)**
 1. Abre el proyecto en tu IDE preferido (**IntelliJ IDEA**, **VS Code** o **Eclipse**).
