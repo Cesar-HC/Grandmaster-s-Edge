@@ -62,7 +62,7 @@ public class SecurityConfig {
                         .requestMatchers("/ficha", "/api/ficha").permitAll()
                         .requestMatchers("/fichas", "/api/fichas").permitAll()
                         .requestMatchers("/ficha/**", "/api/ficha/**").permitAll()
-                        .requestMatchers("/ws-chess/**").permitAll()
+                        .requestMatchers("/ws/**", "/ws-chess/**").permitAll()
                         .anyRequest().authenticated()
                 )
                 .sessionManagement(session -> session
