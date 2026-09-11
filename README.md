@@ -1,4 +1,4 @@
-# Grandmaster's Edge - Backend API
+# Grandmaster's Edge - Backend API REST
 
 Servicio backend para la plataforma de ajedrez en línea **Grandmaster's Edge**. Desarrollado con **Java** y **Spring Boot**, gestiona la autenticación JWT, perfiles de jugadores, cálculo de ELO, matchmaking en tiempo real y comunicación bidireccional mediante **WebSockets (STOMP)**.
 
